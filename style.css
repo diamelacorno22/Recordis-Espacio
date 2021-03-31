@@ -1,0 +1,122 @@
+*{ margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body { color: floralwhite;
+display: flex;
+flex-direction: column;}
+
+.header { background-color: darkviolet;
+height: 20vh;}
+
+
+.navbar { background-color: darkviolet;
+    display: flex;
+    position: fixed;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+}
+
+ul {list-style: none;}
+
+.navbar .items__menu{display: flex;
+width: 50%;
+justify-content: space-between;
+color: gainsboro;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+.carrusel { display: flex;
+justify-content: center;}
+
+.enlace1 { background-color: fuchsia;
+align-items: stretch;
+justify-content: space-around;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.accesos { background-color: fuchsia;
+display: flex;
+justify-content: space-around;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.enlace2 { background-color: fuchsia;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+  .experiencias { color: rgb(252, 250, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+h3 { color: fuchsia;}
+
+
+  .cliente1 {
+      background-color: rgb(204, 75, 236);
+      
+}
+    
+  .cliente2 {
+      background-color: rgb(228, 22, 228);
+      
+
+}
+
+  .cliente3 { background-color: rgb(211, 35, 117);
+    
+
+}
+.footer { background-color: #fff;
+  color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  
+  }
+  
+  .izquierda { background-color: fuchsia;
+  
+  }  
+
+
+
+
+/* Diseño Grafico */
+
+.menuimagen { display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  grid-template-rows: repeat( 6, 1fr);
+  gap: 10px;
+  background-color: #fff;
+
+}
+
+.menuimagen .identidadvisual { grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+.menuimagen .papeleria { grid-column: 1 / 4 ;
+  grid-row: 2 / 3;
+
+}
+
+.menuimagen .catalogos { grid-column: 1 / 4;
+  grid-row: 3 / 3;
+
+}
+
+
+
+
+
+
+
